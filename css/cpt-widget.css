@@ -1,0 +1,128 @@
+/**
+ * Plugin Category Posts Tabber
+ */
+
+.cpt-widget-wrapper {
+	width: 100%;
+	border-bottom: solid 1px rgb(221, 221, 221);
+}
+
+.cpt-widget-wrapper .cpt-tab {
+  border-top: solid 1px rgb(221, 221, 221);
+  border-bottom: solid 1px rgb(221, 221, 221);
+  width: 100%;
+}
+.cpt-widget-wrapper .cpt-tab:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.cpt-widget-wrapper .cpt-tab li {
+	float: left;
+	list-style: none;
+	margin: 0 !important;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+}
+
+.cpt-widget-wrapper .cpt-tab li a {
+	padding: 11px 0 7px;
+	display: block;
+	outline: none;
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-ms-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+}
+
+.cpt-widget-wrapper .cpt-tab li .cpt-current-item {
+	border-bottom: solid 2px gray;
+	font-weight: bold;
+	width: 100%;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper {
+	width: 100%;
+	position: relative;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-tab-content {
+	display: none;
+	padding: 20px 10px 20px 0;
+	width: 100%;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-tab-content li {
+	margin: 0 0 20px 0;
+	list-style: none;
+	padding: 0;
+	border: none;
+	width: 100%;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-tab-content li:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-tab-content li a {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-ms-transition: 0s;
+	-o-transition: 0s;
+	transition: 0s;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-tab-content li:last-child {
+	margin-bottom: 0;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-thumbnail {
+	float: left;
+	width: 27%;
+	padding-right: 12px;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-thumbnail a {
+	display: block;
+	font-size: 0;
+	outline: none;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-thumbnail img {
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-title {
+	font-weight: bold;
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-post-meta {
+	font-size: 13px;
+	color: rgb(131, 131, 131);
+}
+
+.cpt-widget-wrapper .cpt-content-wrapper .cpt-separate {
+	color: rgb(207, 207, 207);
+}
+
+.cpt-widget-wrapper .cpt-no-post {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
